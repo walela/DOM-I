@@ -89,3 +89,15 @@ let visionHeading = document.querySelectorAll(".text-content h4")[4];
 visionHeading.textContent = siteContent["main-content"]["vision-h4"];
 let visionText = document.querySelectorAll(".text-content p")[4];
 visionText.textContent = siteContent["main-content"]["vision-content"];
+
+let contactHeading = document.querySelector(".contact h4");
+contactHeading.textContent = siteContent.contact["contact-h4"];
+
+document.querySelectorAll(".contact p")[0].textContent =
+  siteContent.contact.address;
+
+document.querySelectorAll(".contact p")[1].textContent =
+  siteContent.contact.phone;
+
+document.querySelectorAll(".contact p")[2].textContent =
+  siteContent.contact.email;
