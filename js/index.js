@@ -46,6 +46,7 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
+// update cta img src
 let ctaImg = document.getElementById("cta-img");
 ctaImg.setAttribute("src", siteContent.cta["img-src"]);
 
@@ -103,3 +104,6 @@ document.querySelectorAll(".contact p")[2].textContent =
   siteContent.contact.email;
 
 document.querySelector("footer p").textContent = siteContent.footer.copyright;
+
+// set link color to green;
+navLinks.forEach(link => link.setAttribute("style", "color:green"));
