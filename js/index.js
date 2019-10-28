@@ -57,3 +57,9 @@ for (let i = 0; i < 6; i++) {
   item = `nav-item-${i + 1}`;
   navLinks[i].textContent = siteContent.nav[item];
 }
+
+let ctaHeading = document.querySelector(".cta-text h1");
+ctaHeading.textContent = siteContent.cta.h1;
+
+let ctaButton = document.querySelector(".cta-text button");
+ctaButton.textContent = siteContent.cta.button;
