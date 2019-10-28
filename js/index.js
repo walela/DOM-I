@@ -46,6 +46,12 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
+let ctaImg = document.getElementById("cta-img");
+ctaImg.setAttribute("src", siteContent.cta["img-src"]);
+
+let middleImg = document.getElementById("middle-img");
+middleImg.setAttribute("src", siteContent["main-content"]["middle-img-src"]);
+
 let navLinks = Array.from(document.querySelectorAll("nav a"));
 for (let i = 0; i < 6; i++) {
   item = `nav-item-${i + 1}`;
