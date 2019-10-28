@@ -70,3 +70,11 @@ featuresHeading.textContent = siteContent["main-content"]["features-h4"];
 let featuresText = document.querySelector(".text-content p");
 featuresText.textContent = siteContent["main-content"]["features-content"];
 
+let aboutHeading = document.querySelectorAll(".text-content h4")[1];
+let aboutText = document.querySelectorAll(".text-content p")[1];
+let servicesHeading = document.querySelectorAll(".text-content h4")[2];
+let servicesText = document.querySelectorAll(".text-content p")[2];
+let productHeading = document.querySelectorAll(".text-content h4")[3];
+let productText = document.querySelectorAll(".text-content p")[3];
+let visionHeading = document.querySelectorAll(".text-content h4")[4];
+let visionText = document.querySelectorAll(".text-content p")[4];
