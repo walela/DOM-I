@@ -71,10 +71,21 @@ let featuresText = document.querySelector(".text-content p");
 featuresText.textContent = siteContent["main-content"]["features-content"];
 
 let aboutHeading = document.querySelectorAll(".text-content h4")[1];
+aboutHeading.textContent = siteContent["main-content"]["about-h4"];
 let aboutText = document.querySelectorAll(".text-content p")[1];
+aboutText.textContent = siteContent["main-content"]["about-content"];
+
 let servicesHeading = document.querySelectorAll(".text-content h4")[2];
+servicesHeading.textContent = siteContent["main-content"]["services-h4"];
 let servicesText = document.querySelectorAll(".text-content p")[2];
+servicesText.textContent = siteContent["main-content"]["services-content"];
+
 let productHeading = document.querySelectorAll(".text-content h4")[3];
+productHeading.textContent = siteContent["main-content"]["product-h4"];
 let productText = document.querySelectorAll(".text-content p")[3];
+productText.textContent = siteContent["main-content"]["product-content"];
+
 let visionHeading = document.querySelectorAll(".text-content h4")[4];
+visionHeading.textContent = siteContent["main-content"]["vision-h4"];
 let visionText = document.querySelectorAll(".text-content p")[4];
+visionText.textContent = siteContent["main-content"]["vision-content"];
