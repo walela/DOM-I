@@ -63,3 +63,10 @@ ctaHeading.textContent = siteContent.cta.h1;
 
 let ctaButton = document.querySelector(".cta-text button");
 ctaButton.textContent = siteContent.cta.button;
+
+let featuresHeading = document.querySelector(".text-content h4");
+featuresHeading.textContent = siteContent["main-content"]["features-h4"];
+
+let featuresText = document.querySelector(".text-content p");
+featuresText.textContent = siteContent["main-content"]["features-content"];
+
