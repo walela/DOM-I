@@ -101,3 +101,5 @@ document.querySelectorAll(".contact p")[1].textContent =
 
 document.querySelectorAll(".contact p")[2].textContent =
   siteContent.contact.email;
+
+document.querySelector("footer p").textContent = siteContent.footer.copyright;
