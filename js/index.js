@@ -121,3 +121,14 @@ careersLink.setAttribute("href", "#");
 careersLink.setAttribute("style", "color: green");
 careersLink.textContent = "Careers";
 document.querySelector("nav").appendChild(careersLink);
+
+let links = Array.from(document.querySelectorAll("nav a"));
+console.log(links);
+
+links.forEach(link => {
+  link.style.fontWeight = "bold";
+  link.style.fontFamily = "Fira Code";
+  link.style.fontSize = "14px";
+
+  link.onMouseEnter = () => (link.style.backgroundColor = "grey");
+});
