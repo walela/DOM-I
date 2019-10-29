@@ -130,5 +130,13 @@ links.forEach(link => {
   link.style.fontFamily = "Fira Code";
   link.style.fontSize = "14px";
 
-  link.onMouseEnter = () => (link.style.backgroundColor = "grey");
+  link.addEventListener("mouseenter", e => {
+    e.target.style.backgroundColor = "#ede";
+    e.target.style.padding = "5px";
+  });
+
+  link.addEventListener("mouseleave", e => {
+    e.target.style.backgroundColor = "white";
+    e.target.style.padding = "0px";
+  });
 });
