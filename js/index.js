@@ -107,3 +107,17 @@ document.querySelector("footer p").textContent = siteContent.footer.copyright;
 
 // set link color to green;
 navLinks.forEach(link => link.setAttribute("style", "color:green"));
+
+// append children to navigation.
+
+let introLink = document.createElement("a");
+introLink.setAttribute("href", "#");
+introLink.setAttribute("style", "color: green");
+introLink.textContent = "Why Us";
+document.querySelector("nav").prepend(introLink);
+
+let careersLink = document.createElement("a");
+careersLink.setAttribute("href", "#");
+careersLink.setAttribute("style", "color: green");
+careersLink.textContent = "Careers";
+document.querySelector("nav").appendChild(careersLink);
